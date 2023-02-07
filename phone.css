@@ -1,0 +1,90 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+}
+#logo{
+    display: none;
+    /* margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 65px; */
+}
+#lgn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#navbar ul li{
+    margin-bottom: 10px;
+}
+#navbar ul li a{
+    font-size: 1rem;
+}
+
+/* Home Section  */
+#home{
+    height: 516px;
+    padding: 3px 0px;
+}
+#home h1{
+    font-size: 2rem;
+}
+.p-primary{
+    font-size: 1.7rem;
+}
+#home::before{
+    height: 710px;
+}
+
+/* services section  */
+#services{
+    flex-direction: column;
+}
+#servH{
+    margin-top: 102px;
+}
+#boximg3{
+    width: 301px;
+}
+
+/* products section  */
+#productH1{
+    margin: 0px 0px;
+}
+#products{
+    flex-wrap: wrap;
+}
+#product-section{
+    height: 490px;
+}
+.product-item{
+    padding: 0px 18px;
+}
+#product-section::before{
+    height: 70%;
+}
+#product-item1{
+    height: 215px;
+    width: 201px;
+}
+#product-item2{
+    padding-top: 0px;
+    padding-left: 140px;
+    
+    width: 214px;
+
+}
+
+
+/* Contact us section  */
+#contact h1{
+    font-family: 'Bree Serif', serif;
+}
+
+
+/* footer  */
+#copy{
+    font-size: 3rem;
+}
+#footname{
+    font-size: 1rem;
+}
